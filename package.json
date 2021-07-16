@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.0.0",
+    "request": "^2.88.2",
+    "sleep-promise": "^9.1.0",
+    "twilio": "^3.66.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "mocha": "^9.0.1"
+  },
+  "scripts": {
+    "start": "node ./app",
+    "test": "mocha --timeout 1000"
+  }
+}
