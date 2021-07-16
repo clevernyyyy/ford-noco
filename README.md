@@ -1,3 +1,9 @@
+#Steps to run
+1. Run MongoDB and populate with test car info
+2. Setup a Twilio phone number linked to our server or Ngrok server
+3. Add/edit your Twilio and Ford creditials into the .env file
+4. Start the application command: node noco_monitor.js
+
 # FordConnect Simulator
 
 This simulator is only intended for use by someone that is already authorized by Ford to use the FordConnect API, for example [Ford Smart Vehicle Connectivity Challenge](https://fordsmart.devpost.com/).
